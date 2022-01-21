@@ -17,7 +17,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/abdullah/modern_cpp/modern_cpp_templates/homework_9/build/CMakeFiles/histogram.dir/DependInfo.cmake"
   "/home/abdullah/modern_cpp/modern_cpp_templates/homework_9/build/CMakeFiles/convert_dataset.dir/DependInfo.cmake"
   "/home/abdullah/modern_cpp/modern_cpp_templates/homework_9/build/CMakeFiles/bow_dictionary.dir/DependInfo.cmake"
   "/home/abdullah/modern_cpp/modern_cpp_templates/homework_9/build/CMakeFiles/serialize.dir/DependInfo.cmake"

@@ -5,5 +5,5 @@
 #include "convert_dataset.hpp"
 #include "serialize.hpp"
 #include "compute_sifts.hpp"
-#include "histogram.hpp"
 #include "kmeans_utils.hpp"
+#include "histogram.hpp"

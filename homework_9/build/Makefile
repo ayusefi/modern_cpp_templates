@@ -137,17 +137,17 @@ convert_dataset/fast:
 .PHONY : convert_dataset/fast
 
 #=============================================================================
-# Target rules for targets named kmeans
+# Target rules for targets named serialize
 
 # Build rule for target.
-kmeans: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 kmeans
-.PHONY : kmeans
+serialize: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 serialize
+.PHONY : serialize
 
 # fast build rule for target.
-kmeans/fast:
-	$(MAKE) -f CMakeFiles/kmeans.dir/build.make CMakeFiles/kmeans.dir/build
-.PHONY : kmeans/fast
+serialize/fast:
+	$(MAKE) -f CMakeFiles/serialize.dir/build.make CMakeFiles/serialize.dir/build
+.PHONY : serialize/fast
 
 #=============================================================================
 # Target rules for targets named main
@@ -163,30 +163,17 @@ main/fast:
 .PHONY : main/fast
 
 #=============================================================================
-# Target rules for targets named serialize
+# Target rules for targets named kmeans
 
 # Build rule for target.
-serialize: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 serialize
-.PHONY : serialize
+kmeans: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 kmeans
+.PHONY : kmeans
 
 # fast build rule for target.
-serialize/fast:
-	$(MAKE) -f CMakeFiles/serialize.dir/build.make CMakeFiles/serialize.dir/build
-.PHONY : serialize/fast
-
-#=============================================================================
-# Target rules for targets named histogram
-
-# Build rule for target.
-histogram: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 histogram
-.PHONY : histogram
-
-# fast build rule for target.
-histogram/fast:
-	$(MAKE) -f CMakeFiles/histogram.dir/build.make CMakeFiles/histogram.dir/build
-.PHONY : histogram/fast
+kmeans/fast:
+	$(MAKE) -f CMakeFiles/kmeans.dir/build.make CMakeFiles/kmeans.dir/build
+.PHONY : kmeans/fast
 
 src/bow_dictionary.o: src/bow_dictionary.cpp.o
 
@@ -271,33 +258,6 @@ src/convert_dataset.s: src/convert_dataset.cpp.s
 src/convert_dataset.cpp.s:
 	$(MAKE) -f CMakeFiles/convert_dataset.dir/build.make CMakeFiles/convert_dataset.dir/src/convert_dataset.cpp.s
 .PHONY : src/convert_dataset.cpp.s
-
-src/histogram.o: src/histogram.cpp.o
-
-.PHONY : src/histogram.o
-
-# target to build an object file
-src/histogram.cpp.o:
-	$(MAKE) -f CMakeFiles/histogram.dir/build.make CMakeFiles/histogram.dir/src/histogram.cpp.o
-.PHONY : src/histogram.cpp.o
-
-src/histogram.i: src/histogram.cpp.i
-
-.PHONY : src/histogram.i
-
-# target to preprocess a source file
-src/histogram.cpp.i:
-	$(MAKE) -f CMakeFiles/histogram.dir/build.make CMakeFiles/histogram.dir/src/histogram.cpp.i
-.PHONY : src/histogram.cpp.i
-
-src/histogram.s: src/histogram.cpp.s
-
-.PHONY : src/histogram.s
-
-# target to generate assembly for a file
-src/histogram.cpp.s:
-	$(MAKE) -f CMakeFiles/histogram.dir/build.make CMakeFiles/histogram.dir/src/histogram.cpp.s
-.PHONY : src/histogram.cpp.s
 
 src/kmeans.o: src/kmeans.cpp.o
 
@@ -417,13 +377,12 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... edit_cache"
 	@echo "... bow_dictionary"
 	@echo "... convert_dataset"
-	@echo "... kmeans"
-	@echo "... main"
+	@echo "... edit_cache"
 	@echo "... serialize"
-	@echo "... histogram"
+	@echo "... main"
+	@echo "... kmeans"
 	@echo "... src/bow_dictionary.o"
 	@echo "... src/bow_dictionary.i"
 	@echo "... src/bow_dictionary.s"
@@ -433,9 +392,6 @@ help:
 	@echo "... src/convert_dataset.o"
 	@echo "... src/convert_dataset.i"
 	@echo "... src/convert_dataset.s"
-	@echo "... src/histogram.o"
-	@echo "... src/histogram.i"
-	@echo "... src/histogram.s"
 	@echo "... src/kmeans.o"
 	@echo "... src/kmeans.i"
 	@echo "... src/kmeans.s"

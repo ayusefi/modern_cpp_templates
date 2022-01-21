@@ -27,10 +27,10 @@ serialize.hpp
 ../include/serialize.hpp
 compute_sifts.hpp
 ../include/compute_sifts.hpp
-histogram.hpp
-../include/histogram.hpp
 kmeans_utils.hpp
 ../include/kmeans_utils.hpp
+histogram.hpp
+../include/histogram.hpp
 
 ../include/kmeans.hpp
 

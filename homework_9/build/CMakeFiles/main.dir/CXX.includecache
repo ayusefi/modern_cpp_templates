@@ -7,12 +7,38 @@
 #IncludeRegexTransform: 
 
 ../include/bow_dictionary.hpp
+algorithm
+-
+chrono
+-
+convert_dataset.hpp
+-
+ctime
+-
+functional
+-
+iostream
+-
+opencv2/core.hpp
+-
+opencv2/core/mat.hpp
+-
+serialize.hpp
+-
+string
+-
+thread
+-
+vector
+-
 
 ../include/compute_sifts.hpp
 
 ../include/convert_dataset.hpp
 experimental/filesystem
 -
+
+../include/histogram.hpp
 
 ../include/homework_9.h
 kmeans.hpp
@@ -27,6 +53,8 @@ compute_sifts.hpp
 ../include/compute_sifts.hpp
 kmeans_utils.hpp
 ../include/kmeans_utils.hpp
+histogram.hpp
+../include/histogram.hpp
 
 ../include/kmeans.hpp
 

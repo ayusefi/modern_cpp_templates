@@ -90,7 +90,6 @@ main_EXTERNAL_OBJECTS =
 
 main: CMakeFiles/main.dir/src/main.cpp.o
 main: CMakeFiles/main.dir/build.make
-main: libhistogram.a
 main: libconvert_dataset.a
 main: libbow_dictionary.a
 main: /usr/local/lib/libopencv_stitching.so.3.4.3

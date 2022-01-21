@@ -7,6 +7,30 @@
 #IncludeRegexTransform: 
 
 ../include/bow_dictionary.hpp
+algorithm
+-
+chrono
+-
+convert_dataset.hpp
+-
+ctime
+-
+functional
+-
+iostream
+-
+opencv2/core.hpp
+-
+opencv2/core/mat.hpp
+-
+serialize.hpp
+-
+string
+-
+thread
+-
+vector
+-
 
 ../include/compute_sifts.hpp
 
@@ -27,10 +51,10 @@ serialize.hpp
 ../include/serialize.hpp
 compute_sifts.hpp
 ../include/compute_sifts.hpp
-histogram.hpp
-../include/histogram.hpp
 kmeans_utils.hpp
 ../include/kmeans_utils.hpp
+histogram.hpp
+../include/histogram.hpp
 
 ../include/kmeans.hpp
 
@@ -40,6 +64,30 @@ kmeans_utils.hpp
 
 /home/abdullah/modern_cpp/modern_cpp_templates/homework_9/src/bow_dictionary.cpp
 opencv2/opencv.hpp
+-
+algorithm
+-
+chrono
+-
+convert_dataset.hpp
+-
+ctime
+-
+functional
+-
+iostream
+-
+opencv2/core.hpp
+-
+opencv2/core/mat.hpp
+-
+serialize.hpp
+-
+string
+-
+thread
+-
+vector
 -
 homework_9.h
 /home/abdullah/modern_cpp/modern_cpp_templates/homework_9/src/homework_9.h

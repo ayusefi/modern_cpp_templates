@@ -21,21 +21,6 @@
 },
 {
   "directory": "/home/abdullah/modern_cpp/modern_cpp_templates/homework_9/build",
-  "command": "/usr/lib/ccache/c++   -I/usr/local/include -I/usr/local/include/opencv -I/home/abdullah/modern_cpp/modern_cpp_templates/homework_9/include   -pthread   -std=gnu++1z -o CMakeFiles/kmeans.dir/src/kmeans_utils.cpp.o -c /home/abdullah/modern_cpp/modern_cpp_templates/homework_9/src/kmeans_utils.cpp",
-  "file": "/home/abdullah/modern_cpp/modern_cpp_templates/homework_9/src/kmeans_utils.cpp"
-},
-{
-  "directory": "/home/abdullah/modern_cpp/modern_cpp_templates/homework_9/build",
-  "command": "/usr/lib/ccache/c++   -I/usr/local/include -I/usr/local/include/opencv -I/home/abdullah/modern_cpp/modern_cpp_templates/homework_9/include   -pthread   -std=gnu++1z -o CMakeFiles/kmeans.dir/src/kmeans.cpp.o -c /home/abdullah/modern_cpp/modern_cpp_templates/homework_9/src/kmeans.cpp",
-  "file": "/home/abdullah/modern_cpp/modern_cpp_templates/homework_9/src/kmeans.cpp"
-},
-{
-  "directory": "/home/abdullah/modern_cpp/modern_cpp_templates/homework_9/build",
-  "command": "/usr/lib/ccache/c++   -isystem /usr/local/include -isystem /usr/local/include/opencv -I/home/abdullah/modern_cpp/modern_cpp_templates/homework_9/include   -pthread   -std=gnu++1z -o CMakeFiles/main.dir/src/main.cpp.o -c /home/abdullah/modern_cpp/modern_cpp_templates/homework_9/src/main.cpp",
-  "file": "/home/abdullah/modern_cpp/modern_cpp_templates/homework_9/src/main.cpp"
-},
-{
-  "directory": "/home/abdullah/modern_cpp/modern_cpp_templates/homework_9/build",
   "command": "/usr/lib/ccache/c++   -I/usr/local/include -I/usr/local/include/opencv -I/home/abdullah/modern_cpp/modern_cpp_templates/homework_9/include   -pthread   -std=gnu++1z -o CMakeFiles/serialize.dir/src/compute_sifts.cpp.o -c /home/abdullah/modern_cpp/modern_cpp_templates/homework_9/src/compute_sifts.cpp",
   "file": "/home/abdullah/modern_cpp/modern_cpp_templates/homework_9/src/compute_sifts.cpp"
 },
@@ -46,7 +31,17 @@
 },
 {
   "directory": "/home/abdullah/modern_cpp/modern_cpp_templates/homework_9/build",
-  "command": "/usr/lib/ccache/c++   -isystem /usr/local/include -isystem /usr/local/include/opencv -I/home/abdullah/modern_cpp/modern_cpp_templates/homework_9/include   -pthread   -std=gnu++1z -o CMakeFiles/histogram.dir/src/histogram.cpp.o -c /home/abdullah/modern_cpp/modern_cpp_templates/homework_9/src/histogram.cpp",
-  "file": "/home/abdullah/modern_cpp/modern_cpp_templates/homework_9/src/histogram.cpp"
+  "command": "/usr/lib/ccache/c++   -isystem /usr/local/include -isystem /usr/local/include/opencv -I/home/abdullah/modern_cpp/modern_cpp_templates/homework_9/include   -pthread   -std=gnu++1z -o CMakeFiles/main.dir/src/main.cpp.o -c /home/abdullah/modern_cpp/modern_cpp_templates/homework_9/src/main.cpp",
+  "file": "/home/abdullah/modern_cpp/modern_cpp_templates/homework_9/src/main.cpp"
+},
+{
+  "directory": "/home/abdullah/modern_cpp/modern_cpp_templates/homework_9/build",
+  "command": "/usr/lib/ccache/c++   -I/usr/local/include -I/usr/local/include/opencv -I/home/abdullah/modern_cpp/modern_cpp_templates/homework_9/include   -pthread   -std=gnu++1z -o CMakeFiles/kmeans.dir/src/kmeans.cpp.o -c /home/abdullah/modern_cpp/modern_cpp_templates/homework_9/src/kmeans.cpp",
+  "file": "/home/abdullah/modern_cpp/modern_cpp_templates/homework_9/src/kmeans.cpp"
+},
+{
+  "directory": "/home/abdullah/modern_cpp/modern_cpp_templates/homework_9/build",
+  "command": "/usr/lib/ccache/c++   -I/usr/local/include -I/usr/local/include/opencv -I/home/abdullah/modern_cpp/modern_cpp_templates/homework_9/include   -pthread   -std=gnu++1z -o CMakeFiles/kmeans.dir/src/kmeans_utils.cpp.o -c /home/abdullah/modern_cpp/modern_cpp_templates/homework_9/src/kmeans_utils.cpp",
+  "file": "/home/abdullah/modern_cpp/modern_cpp_templates/homework_9/src/kmeans_utils.cpp"
 }
 ]
