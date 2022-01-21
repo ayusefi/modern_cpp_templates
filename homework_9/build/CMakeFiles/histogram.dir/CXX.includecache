@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/bow_dictionary.hpp
+
+../include/compute_sifts.hpp
+
+../include/convert_dataset.hpp
+experimental/filesystem
+-
+
+../include/histogram.hpp
+
+../include/homework_9.h
+kmeans.hpp
+../include/kmeans.hpp
+bow_dictionary.hpp
+../include/bow_dictionary.hpp
+convert_dataset.hpp
+../include/convert_dataset.hpp
+serialize.hpp
+../include/serialize.hpp
+compute_sifts.hpp
+../include/compute_sifts.hpp
+histogram.hpp
+../include/histogram.hpp
+kmeans_utils.hpp
+../include/kmeans_utils.hpp
+
+../include/kmeans.hpp
+
+../include/kmeans_utils.hpp
+
+../include/serialize.hpp
+
+/home/abdullah/modern_cpp/modern_cpp_templates/homework_9/src/histogram.cpp
+homework_9.h
+/home/abdullah/modern_cpp/modern_cpp_templates/homework_9/src/homework_9.h
+

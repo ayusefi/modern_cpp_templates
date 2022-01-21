@@ -1,0 +1,8 @@
+/home/abdullah/modern_cpp/modern_cpp_templates/homework_9/build/CMakeFiles/rebuild_cache.dir
+/home/abdullah/modern_cpp/modern_cpp_templates/homework_9/build/CMakeFiles/edit_cache.dir
+/home/abdullah/modern_cpp/modern_cpp_templates/homework_9/build/CMakeFiles/bow_dictionary.dir
+/home/abdullah/modern_cpp/modern_cpp_templates/homework_9/build/CMakeFiles/convert_dataset.dir
+/home/abdullah/modern_cpp/modern_cpp_templates/homework_9/build/CMakeFiles/kmeans.dir
+/home/abdullah/modern_cpp/modern_cpp_templates/homework_9/build/CMakeFiles/main.dir
+/home/abdullah/modern_cpp/modern_cpp_templates/homework_9/build/CMakeFiles/serialize.dir
+/home/abdullah/modern_cpp/modern_cpp_templates/homework_9/build/CMakeFiles/histogram.dir
