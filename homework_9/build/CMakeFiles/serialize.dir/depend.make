@@ -143,7 +143,6 @@ CMakeFiles/serialize.dir/src/compute_sifts.cpp.o: /usr/local/include/opencv2/xfe
 CMakeFiles/serialize.dir/src/serialize.cpp.o: ../include/bow_dictionary.hpp
 CMakeFiles/serialize.dir/src/serialize.cpp.o: ../include/compute_sifts.hpp
 CMakeFiles/serialize.dir/src/serialize.cpp.o: ../include/convert_dataset.hpp
-CMakeFiles/serialize.dir/src/serialize.cpp.o: ../include/histogram.hpp
 CMakeFiles/serialize.dir/src/serialize.cpp.o: ../include/homework_9.h
 CMakeFiles/serialize.dir/src/serialize.cpp.o: ../include/kmeans.hpp
 CMakeFiles/serialize.dir/src/serialize.cpp.o: ../include/kmeans_utils.hpp

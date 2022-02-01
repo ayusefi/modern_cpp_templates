@@ -38,8 +38,6 @@ vector
 experimental/filesystem
 -
 
-../include/histogram.hpp
-
 ../include/homework_9.h
 kmeans.hpp
 ../include/kmeans.hpp
@@ -53,8 +51,6 @@ compute_sifts.hpp
 ../include/compute_sifts.hpp
 kmeans_utils.hpp
 ../include/kmeans_utils.hpp
-histogram.hpp
-../include/histogram.hpp
 
 ../include/kmeans.hpp
 

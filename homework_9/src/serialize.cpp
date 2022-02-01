@@ -3,29 +3,29 @@
 
 void Serialize(const cv::Mat& m, const std::string& filename)
 {
-  auto [descriptors, image_with_kp] = ComputeSifts(m);
+  // auto [descriptors, image_with_kp] = ComputeSifts(m);
 
   std::ofstream fs(filename, std::fstream::binary);
 
   // Header
-  int type = descriptors.type();
-  int channels = descriptors.channels();
-  fs.write((char*)&descriptors.rows, sizeof(int));  // rows
-  fs.write((char*)&descriptors.cols, sizeof(int));  // cols
-  fs.write((char*)&type, sizeof(int));              // type
-  fs.write((char*)&channels, sizeof(int));          // channels
+  int type = m.type();
+  int channels = m.channels();
+  fs.write((char*)&m.rows, sizeof(int));    // rows
+  fs.write((char*)&m.cols, sizeof(int));    // cols
+  fs.write((char*)&type, sizeof(int));      // type
+  fs.write((char*)&channels, sizeof(int));  // channels
 
   // Data
-  if (descriptors.isContinuous())
+  if (m.isContinuous())
   {
-    fs.write(descriptors.ptr<char>(0), (descriptors.dataend - descriptors.datastart));
+    fs.write(m.ptr<char>(0), (m.dataend - m.datastart));
   }
   else
   {
-    int rowsz = CV_ELEM_SIZE(type) * descriptors.cols;
-    for (int r = 0; r < descriptors.rows; ++r)
+    int rowsz = CV_ELEM_SIZE(type) * m.cols;
+    for (int r = 0; r < m.rows; ++r)
     {
-      fs.write(descriptors.ptr<char>(r), rowsz);
+      fs.write(m.ptr<char>(r), rowsz);
     }
   }
 }

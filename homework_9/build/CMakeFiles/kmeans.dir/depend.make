@@ -4,7 +4,6 @@
 CMakeFiles/kmeans.dir/src/kmeans.cpp.o: ../include/bow_dictionary.hpp
 CMakeFiles/kmeans.dir/src/kmeans.cpp.o: ../include/compute_sifts.hpp
 CMakeFiles/kmeans.dir/src/kmeans.cpp.o: ../include/convert_dataset.hpp
-CMakeFiles/kmeans.dir/src/kmeans.cpp.o: ../include/histogram.hpp
 CMakeFiles/kmeans.dir/src/kmeans.cpp.o: ../include/homework_9.h
 CMakeFiles/kmeans.dir/src/kmeans.cpp.o: ../include/kmeans.hpp
 CMakeFiles/kmeans.dir/src/kmeans.cpp.o: ../include/kmeans_utils.hpp

@@ -21,11 +21,19 @@ int main()
   bow_dictionary_instance.build(40, 5, loaded_descriptors);
   std::cout << "BowDictionary object params has been set!\n";
 
-  //   cv::Mat kmeans_centroids = kMeans(bow_dictionary_instance.descriptors(), bow_dictionary_instance.size(),
-  //                                     bow_dictionary_instance.max_iterations());
   if (bow_dictionary_instance.GetInstance().empty())
     std::cout << "BowDictionary object is Empty!" << std::endl;
   else
     std::cout << "BowDictionary object size is: " << bow_dictionary_instance.size() << std::endl;
+
+  bow_dictionary_instance.save_vocabulary("bow_dictionary.bin");
+  std::cout << "bow_dictionary saved to bow_dictionary.bin" << std::endl;
+
+  Histogram histogram = Histogram(loaded_descriptors[1], bow_dictionary_instance.vocabulary());
+  std::cout << "Histogram Create." << std::endl;
+
+  histogram.WriteToCSV("histogram.csv");
+  std::cout << "Histogram saved to histogram.csv" << std::endl;
+
   return 0;
 }

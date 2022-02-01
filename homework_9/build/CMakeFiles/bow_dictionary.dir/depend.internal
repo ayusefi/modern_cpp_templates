@@ -5,7 +5,6 @@ CMakeFiles/bow_dictionary.dir/src/bow_dictionary.cpp.o
  ../include/bow_dictionary.hpp
  ../include/compute_sifts.hpp
  ../include/convert_dataset.hpp
- ../include/histogram.hpp
  ../include/homework_9.h
  ../include/kmeans.hpp
  ../include/kmeans_utils.hpp

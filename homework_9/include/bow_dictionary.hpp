@@ -38,8 +38,15 @@ public:
   // Getters methods
   //   int max_iterations();
   int size();  // number of centroids / codewords
-  //   std::vector<cv::Mat> descriptors();
-  cv::Mat vocabulary();
+               //   std::vector<cv::Mat> descriptors();
+  cv::Mat vocabulary() const
+  {
+    return computed_dictionary_;
+  };
+  cv::Mat& vocabulary()
+  {
+    return computed_dictionary_;
+  };
   //   cv::Mat& vocabulary();
   //   int total_features();  // number of input features
   bool empty();
@@ -50,6 +57,7 @@ public:
   //   void set_descriptors(std::vector<cv::Mat> new_descriptors);
   void build(int iter, int dict_size, const std::vector<cv::Mat>& descriptors);
   void set_vocabulary(cv::Mat computed_vocabulary);
+  void save_vocabulary(const std::string& filename);
 };
 
 class Histogram
