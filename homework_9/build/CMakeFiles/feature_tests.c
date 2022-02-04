@@ -1,5 +1,14 @@
+/* 
+ *  This is the default license template.
+ *  
+ *  File: feature_tests.c
+ *  Author: abdullah
+ *  Copyright (c) 2022 abdullah
+ *  
+ *  To edit this license information: Press Ctrl+Shift+P and press 'Create new License Template...'.
+ */
 
-  const char features[] = {"\n"
+const char features[] = {"\n"
 "C_FEATURE:"
 #if (__GNUC__ * 100 + __GNUC_MINOR__) >= 304
 "1"
